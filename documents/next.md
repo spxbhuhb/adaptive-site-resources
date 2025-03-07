@@ -5,6 +5,11 @@
 Changelog is now a document resource for site. I'll keep it this way until I move it into
 a database.
 
+## UI
+
+- density dependent pixel operations moved from `AbstractAuiAdapter` to `DensityIndependentAdapter`
+- `AuiRenderData` now uses `DensityIndependentAdapter` instead of `AbstractAuiAdapter`
+
 ## Graphics
 
 ### Canvas

@@ -9,7 +9,7 @@ say: "Don't reinvent the wheel."
 
 While there's some truth to that, let me ask you:
 
-* Do F1 race cars run on the wooden wheels of medieval wagons?
+* Do today's 40-ton trucks run on the wooden wheels of medieval wagons?
 * Why are there 3 million packages on NPM?
 
 Currently, Adaptive is under the initial development, not ready for the broader
@@ -17,3 +17,20 @@ public. It only includes what I’ve needed so far, I’ve taken some shortcuts,
 and—to be honest—I’ve made some bad decisions along the way that I haven’t fixed yet.
 
 That said, it works, and the list of features already implemented is really-really long.
+
+## Adaptive is Independent
+
+Actually, in more than one sense.
+
+Everything you see on this site uses these, and only these, runtime dependencies:
+
+* kotlinx.coroutines
+* kotlinx.datetime
+* kotlinx.io
+* Ktor + logback (Ktor needs logging facade)
+* kotlin.web
+
+## Adaptive is Comfortable
+
+## Adaptive is Natural
+
